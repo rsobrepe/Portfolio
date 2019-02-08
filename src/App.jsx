@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Layout, Header, Textfield, Drawer, Navigation, Content} from 'react-mdl';
+import { Layout, Header, Drawer, Navigation, Content} from 'react-mdl';
 import Main from './Components/main';
 import { Link } from 'react-router-dom';
 import './App.css';
@@ -7,7 +7,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-<div style={{height: '1000px', position: 'relative'}}>
+<div>
     <Layout fixedHeader>
         <Header className="header-color" title={<span><span style={{ color: '#ddd' }}></span><strong>Raymon Sobrepena</strong></span>}>
             <Navigation>
@@ -17,7 +17,7 @@ class App extends Component {
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title="Title">
+        <Drawer title="Raymon Sobrepena">
             <Navigation>
                 <Link to="/resume">Home</Link>
                 <Link to="/aboutme">About Me</Link>

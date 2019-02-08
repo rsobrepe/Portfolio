@@ -66,6 +66,12 @@
   padding-right: 5rem;
 }
 
+.about-right-col{
+  background: #27221F;
+  color:white;
+  padding: 2em;
+}
+
 .banner-text{
   background-color: black;
   opacity: 0.8;

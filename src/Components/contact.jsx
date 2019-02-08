@@ -14,7 +14,14 @@ class Contact extends Component {
                             alt="avatar"
                             style={{height: '250px'}}
                         />
-                        <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>Feel free to use this form to either contact me or find me on any one of my socials!</p>
+                        <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>
+                        Feel free to contact me via work phone or email! I try my best to reply whenever I can!
+                        If you have questions either about my website or about me in general feel free to contact! 
+                        I am always learning and always looking to improve my skills in terms of Web Development so I am 
+                        open to any form of criticism. Programming and working on various projects is one of my greatest interest 
+                        in life and I enjoy doing it! If you want to work with me on a certain project please let me know. I am always 
+                        looking for new cool projects to do and learn from! 
+                        </p>
                     </Cell>
                     
                     
