@@ -18,6 +18,7 @@
   height: 100%;
 }
 
+
 .projects-grid{
   display: flex;
 }
@@ -67,14 +68,16 @@
 }
 
 .about-right-col{
-  background: #27221F;
+  background: black;
+  opacity: 0.8;
+  border-radius: 10px;
   color:white;
   padding: 2em;
 }
 
 .banner-text{
   background-color: black;
-  opacity: 0.8;
+  opacity: 0.75;
   width: 75%;
   margin: auto;
   border-radius: 10px;
@@ -82,21 +85,23 @@
 }
 
 .banner-text h1{
+  font-family: 'Anton', sans-serif;
   font-size: 66px;
   font-weight: bolder;
-  color: white;
+  color: #5274a1;
   text-align: center;
 }
 
 .banner-text hr{
-  border-top: 5px dotted white;
+  border-top: 5px dotted #5274a1;
   width: 50%;
   margin:auto;
 }
 
 .banner-text p{
+  font-family: 'Oxygen', sans-serif;
   text-align: center;
-  color: white;
+  color: #5274a1;
   font-size: 20px;
   padding: 1em;
 }
@@ -109,7 +114,7 @@
 }
 
 .social-links i{
-  color: white;
+  color: #5274a1;
   font-size: 5em;
   padding: 8px;
 }

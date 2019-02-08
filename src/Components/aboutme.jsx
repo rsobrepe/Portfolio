@@ -9,6 +9,8 @@ class About extends Component {
         return(
             <div className="about-grid">
                 <Grid>
+                   
+                    {/*Left Side of the About me Page*/}
                     <Cell col={4}>
                         <div style={{textAlign: 'center'}}>
                             <img                                 
@@ -17,10 +19,15 @@ class About extends Component {
                             style={{height: '200px', borderRadius: '25px'}}/>
                         </div>                                                                                
                         <h2 style={{paddingTop: '2em', textAlign: 'center'}}>Raymon Sobrepena</h2>
-                        <h4 style={{color: 'grey', textAlign: 'center'}}>Developer</h4>
-                        <hr style={{borderTop: '3px solid #833fb2', width: '100%'}}/>
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
-                        <hr style={{borderTop: '3px solid #833fb2', width: '100%'}}/>
+                        <h4 style={{color: 'grey', textAlign: 'center', fontWeight:'bolder'}}>Developer</h4>
+                        <hr style={{borderTop: '3px solid #5274a1', width: '100%'}}/>
+                        <p>
+                        Computer Science Graduate from Ryerson University (2014-2018). Knowledgeable in programming in languages such
+                         as C, C++, C#, Java, Python, SQL, HTML, CSS, JavaScript, React.js, MongoDB, SQL and Android SDK. Interests in 
+                         Computer Science include developing Mobile Applications, Java Applications/Software as well as Web Development.
+                         Eager and willing to learn and try new things in the world of Computer Science.
+                        </p>
+                        <hr style={{borderTop: '3px solid #5274a1', width: '100%'}}/>
                         <h5>Address</h5>
                         <p>17 Mauve Drive, Brampton</p>
                         <h5>Phone</h5>
@@ -29,6 +36,7 @@ class About extends Component {
                         <p>raymon.p.sobrepena@gmail.com</p>
                     </Cell>
                     
+                    {/*Right Side of the About me Page*/}
                     <Cell className="about-right-col" col={8}>
                         <h2>Education</h2>
                         <Education 

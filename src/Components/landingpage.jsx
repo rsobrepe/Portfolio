@@ -8,8 +8,8 @@ class Landing extends Component {
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img 
-                            src="assets/myAvatar.png"
-                            alt="avatar"
+                            src="assets/raylogo.png"
+                            alt="logo"
                             className="avatar-img"
                         />
                         <div className="banner-text">

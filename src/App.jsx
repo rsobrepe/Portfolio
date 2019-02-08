@@ -7,7 +7,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-<div>
+<div className="demo-big-content">
     <Layout fixedHeader>
         <Header className="header-color" title={<span><span style={{ color: '#ddd' }}></span><strong>Raymon Sobrepena</strong></span>}>
             <Navigation>
